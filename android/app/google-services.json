@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "115664641910",
+    "project_id": "grooton-2600c",
+    "storage_bucket": "grooton-2600c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115664641910:android:b529e13eb0d053b55d6457",
+        "android_client_info": {
+          "package_name": "com.example.grooton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115664641910-2gsaegteursa5s3k7q53s3dptrir1roe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3GUTQUxL2S1q-wS38yIYF_OwvWS72cEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115664641910-2gsaegteursa5s3k7q53s3dptrir1roe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
