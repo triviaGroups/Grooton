@@ -2,6 +2,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:grooton/home.dart';
 import 'package:grooton/sizeconfig.dart';
 
 class signin extends StatefulWidget {
@@ -47,7 +48,7 @@ class _signinState extends State<signin> {
           return AlertDialog(
             title: Text(
               "Error",
-              style: TextStyle(color: Theme.of(context).focusColor),
+              style: TextStyle(color: Colors.blueAccent),
             ),
             content: Container(
               child: Text(
@@ -74,7 +75,7 @@ class _signinState extends State<signin> {
     if (feedback != null) {
       _alertDialogBox(feedback);
     } else {
-      Navigator.pop(context);
+      Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => HomePage()));
     }
   }
 
